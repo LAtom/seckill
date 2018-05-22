@@ -22,7 +22,7 @@ import java.util.Date;
 import java.util.List;
 
 
-@Controller  //@Service @Component
+@Controller  //@Service  @Component
 @RequestMapping("/seckill")  // url:/模块/资源/{id}/细分 /seckill/list
 public class SeckillController {
     private final Logger logger=LoggerFactory.getLogger(this.getClass());
@@ -54,7 +54,7 @@ public class SeckillController {
     }
 
 
-    //ajax /json
+    //ajax ,json
     @RequestMapping(value = "/{seckillId}/exposer"
                 ,method = RequestMethod.POST
                 ,produces = {"application/json;charset=UTF-8"}
