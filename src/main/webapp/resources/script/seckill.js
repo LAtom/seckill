@@ -93,7 +93,7 @@ var seckill= {
     detail: {
             //详情页初始化
             init: function(params) {
-                //用户手机验证和登录 , 计时交互
+                //用户手机验证和登录 ,,计时交互
                 //规划我们的交互流程
                 //在Cookie中查找手机号
                 var killPhone = $.cookie("killPhone");
